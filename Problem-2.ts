@@ -24,4 +24,4 @@ const listOfPeople : Array<IPerson> = [
 ]
 
 const eligiblePerson1 : Array<IPerson> = eligiblePerson(listOfPeople);
-console.log(eligiblePerson);
+console.log(eligiblePerson1);

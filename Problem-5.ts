@@ -8,4 +8,4 @@ function checkString(param: unknown): void {
 }
 
 checkString("This is a string");
-checkString(123);
+checkString(12345);
