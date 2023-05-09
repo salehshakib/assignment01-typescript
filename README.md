@@ -48,7 +48,7 @@ Ans: The "in" operator can be used as a type guard to check if a property exists
 }
 function displayCar(car: Car): void {
   if ('brand' in car) {
-    console.log(\`Brand: ${car.brand}\`);
+    console.log(car.brand);
   }
 }`
 
@@ -59,6 +59,6 @@ Again, the typeof operator can also be used as a type guard to check the type of
 }
 function displayCar(car: Car): void {
   if ('brand' in car) {
-    console.log(\`Brand: ${car.brand}\`);
+    console.log(car.brand);
   }
 }`
