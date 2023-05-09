@@ -10,19 +10,34 @@ Ans: An interface is a declaration of a contract between two parts of the code. 
 
 ## 3. Can you give an example of how to use generics in TypeScript?
 
-Ans: 
+Ans:
+`
+function getItem<T>(items: T[]): T {
+  return items[0];
+}
+`
 ## 4. What is the difference between an "unknown" and "any" type in TypeScript ?
 
-Ans: An unknown type variable, same as any, accepts any value. But when trying to use the unknown variable, TypeScript enforces a type check. On the other hand, for using any it won't trigger type errors. You can do anything with a variable of type any. 
+Ans: An unknown type variable, same as any, accepts any value. But when trying to use the unknown variable, TypeScript enforces a type check. On the other hand, for using any it won't trigger type errors. You can do anything with a variable of type any.
 
 ## 5. Can you give an example of how to use enums in TypeScript ?
 
-Ans: 
+Ans: An enum is a special "class" that represents a group of constants.
+
+`
+enum Directions {
+  North,
+  East,
+  South,
+  West
+}
+console.log(currentDirection.East); => East
+`
 
 ## 6. What is the "as" keyword used for in TypeScript?
 
-Ans: 
+Ans: The as keyword is a type assertion in typescript. Type assertion is used such that we can set the data type of the variable on our own and tells the compiler not to infer it on its own.
 
 ## 7. Can you explain how to use "type guards" with "in" and "typeof" operators in TypeScript?
 
-Ans:
+Ans: The "in" operator can be used as a type guard to check if a property exists on an object.
