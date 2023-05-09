@@ -7,7 +7,7 @@ class Person{
     }
 }
 
-const personDetails = new Person("Rahat", 25);
+const personDetails = new Person("Saleh", 24);
 console.log(personDetails.getDetails());
 
 
@@ -21,5 +21,5 @@ class Student extends Person {
     }
 }
 
-const studentDetails = new Student("Ashik", 25, 'A');
+const studentDetails = new Student("Shakib", 20, 'A');
 console.log(studentDetails.getDetails() , studentDetails.getGrade());

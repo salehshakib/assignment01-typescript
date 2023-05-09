@@ -4,5 +4,5 @@ function showName (fullname : string, repeat: number = 3): void {
     }
 }
 
-showName("Rahat Ashik", 5);
-showName("Rahat Ashik");
+showName("Saleh", 5);
+showName("Saleh");

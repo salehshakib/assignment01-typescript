@@ -1,1 +1,3 @@
-# l2tsa1-basic-typescript-salehshakib
+# Assignment01-typescript-salehshakib
+
+## What is TypeScript, and how is it different from JavaScript ?

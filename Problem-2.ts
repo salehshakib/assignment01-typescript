@@ -3,25 +3,25 @@ interface IPerson {
     age: number;
 }
 
-function eligiblePersonFinder (listOfPeople: Array<IPerson>) : Array<IPerson>{
+function eligiblePerson (listOfPeople: Array<IPerson>) : Array<IPerson>{
     return listOfPeople.filter(person => person.age >= 18);
 }
 
 
 const listOfPeople : Array<IPerson> = [
     {
-        name: "Rahat",
-        age: 25
+        name: "Saleh",
+        age: 24
     },
     {
-        name: "Ashik",
-        age: 17
+        name: "Shakib",
+        age: 20
     },
     {
-        name: "Rafiq",
-        age: 22
+        name: "Kabir",
+        age: 30
     }
 ]
 
-const eligiblePerson : Array<IPerson> = eligiblePersonFinder(listOfPeople);
+const eligiblePerson1 : Array<IPerson> = eligiblePerson(listOfPeople);
 console.log(eligiblePerson);

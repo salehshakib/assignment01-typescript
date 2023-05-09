@@ -2,7 +2,7 @@ function doReverse <T>(...arrayOfStrings : T[]): T[] {
     return arrayOfStrings.reverse();
 }
 
-const users = doReverse<string>("Rahim", "Karim", "Jerin");
+const users = doReverse<string>("Saleh", "Shakib", "Kabir");
 console.log(users);
-const sports = doReverse<string>("Cricket", "Football", "Hockey", "Vollyball");
+const sports = doReverse<string>("Football", "Cricket", "Racket", "Handball");
 console.log(sports);
