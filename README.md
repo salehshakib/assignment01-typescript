@@ -41,3 +41,24 @@ Ans: The as keyword is a type assertion in typescript. Type assertion is used su
 ## 7. Can you explain how to use "type guards" with "in" and "typeof" operators in TypeScript?
 
 Ans: The "in" operator can be used as a type guard to check if a property exists on an object.
+
+`interface Car {
+  brand: string;
+  model: string;
+}
+function displayCar(car: Car): void {
+  if ('brand' in car) {
+    console.log(`Brand: ${car.brand}`);
+  }
+}`
+
+Again, the typeof operator can also be used as a type guard to check the type of a variable. Here is an example:
+`interface Car {
+  brand: string;
+  model: string;
+}
+function displayCar(car: Car): void {
+  if ('brand' in car) {
+    console.log(`Brand: ${car.brand}`);
+  }
+}`
